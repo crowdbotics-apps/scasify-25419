@@ -5,6 +5,7 @@ import { NavigationContainer } from "@react-navigation/native"
 import SplashScreen from "../features/SplashScreen"
 import SideMenu from "./sideMenu"
 //@BlueprintImportInsertion
+import Settings221138Navigator from '../features/Settings221138/navigator';
 import UserProfile221131Navigator from '../features/UserProfile221131/navigator';
 import Settings221130Navigator from '../features/Settings221130/navigator';
 import Settings221128Navigator from '../features/Settings221128/navigator';
@@ -16,6 +17,7 @@ import SignIn2221126Navigator from '../features/SignIn2221126/navigator';
 
 const AppNavigator = {
   //@BlueprintNavigationInsertion
+Settings221138: { screen: Settings221138Navigator },
 UserProfile221131: { screen: UserProfile221131Navigator },
 Settings221130: { screen: Settings221130Navigator },
 Settings221128: { screen: Settings221128Navigator },
